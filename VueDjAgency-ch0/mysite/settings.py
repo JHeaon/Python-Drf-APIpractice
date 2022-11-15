@@ -33,6 +33,10 @@ ALLOWED_HOSTS = ['175.192.165.46', '127.0.0.1', 'localhost']
 INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'api.apps.ApiConfig',
+    'api2',
+
+    'rest_framework',
+
 
     'django.contrib.admin',
     'django.contrib.auth',
